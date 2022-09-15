@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    height: 45vw;
+    display: grid;
+    grid-template-areas: 
+       "header"
+        "main"
+        "footer";
+    grid-template-rows: 100px 1fr 100px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    justify-content:space-between ;
+    
+}
+
+.logonike{
+    width: 150px;
+}
+
+.menu{
+    position: absolute;
+    left: 100px;
+}
+
+
+main{
+    grid-area: main;
+    display: grid;
+    grid-template-areas: " navegation description product social ";
+    grid-template-columns: 180px 600px 100px; 
+    padding: 0 100px;
+    
+}
+
+footer{
+    grid-area: footer;
+    
+}

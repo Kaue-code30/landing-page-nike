@@ -1,0 +1,10 @@
+.tenis-nike{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 1050px;
+    width: 974px;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 1;
+}

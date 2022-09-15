@@ -1,0 +1,45 @@
+.description{
+
+    grid-area: description;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start ;
+    align-items: center;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 100px;
+    
+}
+
+.description__title{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 55px;
+
+}
+
+.description__subtitle{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 55px;
+    
+
+}
+
+.description__text{
+    display: flex;
+    grid-area: product;
+    justify-content: center;
+    align-items: flex-start;
+    width: 300px;
+    font-size: 36px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    padding-top: 100px;
+    
+}
+
