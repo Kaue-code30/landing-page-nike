@@ -12,9 +12,13 @@ body{
         "main"
         "footer";
     grid-template-rows: 100px 1fr 100px;
+    background: linear-gradient(90deg, white 80%, #4AE5D3 20%);
+    
+    
 }
 
 header{
+    grid-area: header;
     display: flex;
     align-items: center;
     padding-left: 100px;
@@ -26,10 +30,9 @@ header{
     width: 150px;
 }
 
-.menu{
-    position: absolute;
-    left: 100px;
-}
+
+
+
 
 
 main{
@@ -38,6 +41,7 @@ main{
     grid-template-areas: " navegation description product social ";
     grid-template-columns: 180px 600px 100px; 
     padding: 0 100px;
+
     
 }
 
